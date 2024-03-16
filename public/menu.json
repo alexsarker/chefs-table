@@ -1,0 +1,83 @@
+[
+    {
+        "recipe_id": "1",
+        "recipe_name": "Spicy Chicken Stir-Fry",
+        "recipe_image": "https://i.ibb.co/VgZ829g/pexels-photo-10648394-jpeg-cs-srgb-dl-pexels-angelo-gre-as-10648394.jpg",
+        "short_description": "A delicious and spicy chicken stir-fry with basil and mushrooms.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaves",
+            "400 g mushroom"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_id": "2",
+        "recipe_name": "Vegetable Pad Thai",
+        "recipe_image": "https://i.ibb.co/GFR78HD/pexels-markus-winkler-12481161.jpg",
+        "short_description": "A classic Thai dish made with stir-fried vegetables and rice noodles.",
+        "ingredients": [
+            "200 g rice noodles",
+            "100 g bean sprouts",
+            "1 carrot, julienned"
+        ],
+        "preparing_time": "25 minutes",
+        "calories": "280 calories"
+    },
+    {
+        "recipe_id": "3",
+        "recipe_name": "Mushroom Risotto",
+        "recipe_image": "https://i.ibb.co/28wFM30/pexels-ella-olsson-3026808.jpg",
+        "short_description": "A creamy and flavorful risotto made with mushrooms and Arborio rice.",
+        "ingredients": [
+            "300 g Arborio rice",
+            "500 g mushrooms",
+            "1 onion, finely chopped",
+            "2 cloves garlic, minced"
+        ],
+        "preparing_time": "40 minutes",
+        "calories": "350 calories"
+    },
+    {
+        "recipe_id": "4",
+        "recipe_name": "Greek Salad",
+        "recipe_image": "https://i.ibb.co/5nBYKTC/pexels-dana-tentis-1213710.jpg",
+        "short_description": "A refreshing salad with crisp lettuce, juicy tomatoes, and tangy feta cheese.",
+        "ingredients": [
+            "200 g lettuce",
+            "150 g cherry tomatoes"
+        ],
+        "preparing_time": "15 minutes",
+        "calories": "180 calories"
+    },
+    {
+        "recipe_id": "5",
+        "recipe_name": "Chicken Caesar Salad",
+        "recipe_image": "https://i.ibb.co/KhBtXV3/pexels-marianna-ole-764925.jpg",
+        "short_description": "A classic Caesar salad topped with grilled chicken breast and homemade dressing.",
+        "ingredients": [
+            "300 g grilled chicken breast",
+            "150 g romaine lettuce",
+            "50 g croutons",
+            "30 g Parmesan cheese"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": "280 calories"
+    },
+    {
+        "recipe_id": "6",
+        "recipe_name": "Vegetarian Chili",
+        "recipe_image": "https://i.ibb.co/d4wrbcx/pexels-engin-akyurt-2347311.jpg",
+        "short_description": "A hearty vegetarian chili loaded with beans, vegetables, and spices.",
+        "ingredients": [
+            "400 g kidney beans",
+            "200 g black beans",
+            "150 g corn kernels",
+            "1 bell pepper, diced"
+        ],
+        "preparing_time": "35 minutes",
+        "calories": "300 calories"
+    }
+]

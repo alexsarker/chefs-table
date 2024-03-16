@@ -2,7 +2,7 @@ import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
     return (
-        <div className="container navbar bg-base-100 mx-auto my-16">
+        <div className="container navbar bg-base-100 mx-auto my-2 lg:my-16">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -15,7 +15,7 @@ const Header = () => {
                         <li><a>Search</a></li>
                     </ul>
                 </div>
-                <h2 className="text-xl lg:text-3xl font-bold whitespace-nowrap">Recipe Calories</h2>
+                <h2 className="text-xl lg:text-3xl font-bold whitespace-nowrap">Recipe<span className="original">X</span>Calories</h2>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
