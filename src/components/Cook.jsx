@@ -10,7 +10,7 @@ const Cook = ({ cooks }) => {
 
     return (
         <span>
-            <div className="w-[550px] border border-[#28282833] rounded-2xl p-8">
+            <div className="max-w-[550px] border border-[#28282833] rounded-2xl p-10 my-8 lg:my-0">
                 {/* cook area */}
                 <div>
                     <h2 className="text-2xl original font-semibold text-center pb-4">
