@@ -1,22 +1,28 @@
-import './App.css'
-import Cook from './components/Cook'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Recipe from './components/Recipe'
+import { useState } from 'react';
+import './App.css';
+import Cook from './components/Cook';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Recipe from './components/Recipe';
 
 function App() {
+  const [cooks, setCooks] = useState([]);
+
+  const handleAddToCooks = item => {
+    const newCooks = [...cooks, item];
+    setCooks(newCooks);
+  };
 
   return (
     <>
-      <Header></Header>
-      <Hero></Hero>
-
+      <Header />
+      <Hero />
       <div className='container flex mx-auto'>
-      <Recipe></Recipe>
-      <Cook></Cook>
+        <Recipe handleAddToCooks={handleAddToCooks} />
+        <Cook cooks={cooks} />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
