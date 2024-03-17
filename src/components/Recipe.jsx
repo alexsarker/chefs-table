@@ -18,7 +18,6 @@ const Recipe = ({ handleAddToCooks }) => {
             {
                 menu.map((item, idx) => <Item key={idx} item={item} handleAddToCooks={handleAddToCooks}></Item>)
             }
-
         </div>
     );
 };

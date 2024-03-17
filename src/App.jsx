@@ -14,7 +14,7 @@ function App() {
 
 
   const handleAddToCooks = item => {
-    const isExist = cooks.find(cook => cook.recipe_id == item.recipe_id);
+    const isExist = cooks.find(cook => cook.recipe_id === item.recipe_id);
 
     if (isExist) {
       toast.error("You & the item already exist");
@@ -26,15 +26,19 @@ function App() {
 
 
 
+
+
+
   return (
     <>
       <Header />
       <Hero />
       <div className='container flex flex-col lg:flex-row mx-auto'>
         <Recipe handleAddToCooks={handleAddToCooks} />
-        <Cook cooks={cooks} />
+        <Cook cooks={cooks} setCooks={setCooks} />
       </div>
       <ToastContainer />
+      <div className='mb-8 lg:mb-24'></div>
     </>
   );
 }
